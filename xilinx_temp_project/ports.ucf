@@ -1,0 +1,2 @@
+NET "a" LOC = p172;
+NET "b" LOC = p44;

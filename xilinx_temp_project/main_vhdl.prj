@@ -1,0 +1,8 @@
+vhdl work "E:\skopro2\register.vhd"
+vhdl work "E:\skopro2\memory.vhd"
+vhdl work "E:\skopro2\fulladdr.vhd"
+vhdl work "E:\skopro2\counter.vhd"
+vhdl work "E:\skopro2\compare.vhd"
+vhdl work "E:\skopro2\datapath.vhd"
+vhdl work "E:\skopro2\controller.vhd"
+vhdl work "E:\skopro2\main.vhd"

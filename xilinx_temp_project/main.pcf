@@ -1,0 +1,20 @@
+//! **************************************************************************
+// Written by: Map O.76xd on Mon May 09 13:25:03 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "result<0>" LOCATE = SITE "P46" LEVEL 1;
+COMP "result<1>" LOCATE = SITE "P48" LEVEL 1;
+COMP "result<2>" LOCATE = SITE "P64" LEVEL 1;
+COMP "result<3>" LOCATE = SITE "P65" LEVEL 1;
+COMP "in_clk" LOCATE = SITE "P184" LEVEL 1;
+COMP "address<0>" LOCATE = SITE "P180" LEVEL 1;
+COMP "address<1>" LOCATE = SITE "P181" LEVEL 1;
+COMP "address<2>" LOCATE = SITE "P182" LEVEL 1;
+COMP "address<3>" LOCATE = SITE "P183" LEVEL 1;
+COMP "done" LOCATE = SITE "P61" LEVEL 1;
+COMP "free" LOCATE = SITE "P171" LEVEL 1;
+COMP "reset" LOCATE = SITE "P161" LEVEL 1;
+NET "in_clk_BUFGP/IBUFG" BEL "in_clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

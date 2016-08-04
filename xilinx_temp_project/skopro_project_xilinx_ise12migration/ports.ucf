@@ -1,0 +1,15 @@
+NET "in_clk" LOC = p184;
+NET "free" LOC = p171;
+NET "reset" LOC = p161;
+
+NET "address[0]" LOC = p180;
+NET "address[1]" LOC = p181;
+NET "address[2]" LOC = p182;
+NET "address[3]" LOC = p183;
+
+NET "done" LOC = p61;
+
+NET "result[0]" LOC = p46;
+NET "result[1]" LOC = p48;
+NET "result[2]" LOC = p64;
+NET "result[3]" LOC = p65;

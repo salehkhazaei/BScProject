@@ -1,0 +1,16 @@
+AR main rtl E:/skopro2/main.vhd sub00/vhpl15 1462787708
+AR compare rtl E:/skopro2/compare.vhd sub00/vhpl05 1462787698
+AR controller rtl E:/skopro2/controller.vhd sub00/vhpl13 1462787706
+EN datapath NULL E:/skopro2/datapath.vhd sub00/vhpl10 1462787703
+EN n_register NULL E:/skopro2/register.vhd sub00/vhpl02 1462787695
+EN fulladdr NULL E:/skopro2/fulladdr.vhd sub00/vhpl06 1462787699
+EN main NULL E:/skopro2/main.vhd sub00/vhpl14 1462787707
+AR n_register behavior E:/skopro2/register.vhd sub00/vhpl03 1462787696
+AR counter behavioral E:/skopro2/counter.vhd sub00/vhpl09 1462787702
+EN memory NULL E:/skopro2/memory.vhd sub00/vhpl00 1462787693
+EN counter NULL E:/skopro2/counter.vhd sub00/vhpl08 1462787701
+AR memory behavioral E:/skopro2/memory.vhd sub00/vhpl01 1462787694
+AR datapath rtl E:/skopro2/datapath.vhd sub00/vhpl11 1462787704
+EN compare NULL E:/skopro2/compare.vhd sub00/vhpl04 1462787697
+AR fulladdr rtl E:/skopro2/fulladdr.vhd sub00/vhpl07 1462787700
+EN controller NULL E:/skopro2/controller.vhd sub00/vhpl12 1462787705

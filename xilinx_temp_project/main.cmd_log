@@ -1,0 +1,126 @@
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 main.ngc main.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf 
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 main.ngc main.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf 
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s400-pq208-5 main.ngc main.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s400-pq208-5 main.ngc main.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s400-pq208-5 main.ngc main.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s400-pq208-5 main.ngc main.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s400-pq208-5 main.ngc main.ngd  
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s400-pq208-5 main.ngc main.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s400-pq208-5 main.ngc main.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s400-pq208-5 main.ngc main.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+bitgen -intstyle ise -f main.ut main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s400-pq208-5 main.ngc main.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s400-pq208-5 main.ngc main.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s400-pq208-5 main.ngc main.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s400-pq208-5 main.ngc main.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s400-pq208-5 main.ngc main.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s400-pq208-5 main.ngc main.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf ports.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s400-pq208-5 main.ngc main.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s400-pq208-5 main.ngc main.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s400-pq208-5 main.ngc main.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s400-pq208-5 main.ngc main.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s400-pq208-5 main.ngc main.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "E:/skopro3/skopro_project_xilinx/main.xst" -ofn "E:/skopro3/skopro_project_xilinx/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s400-pq208-5 main.ngc main.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 

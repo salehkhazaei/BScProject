@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\skopro3\skopro_project_xilinx\main.ncd
+OUTFILE=E:\skopro3\skopro_project_xilinx\main.bit
+FAMILY=Spartan3
+PART=xc3s400-5pq208
+WORKINGDIR=E:\skopro3\skopro_project_xilinx
+LICENSE=WebPack
+USER_INFO=__0_0_0

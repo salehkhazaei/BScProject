@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Saleh\Desktop\Thesis\skopro_project_xilinx\q1_1.ncd
+OUTFILE=C:\Users\Saleh\Desktop\Thesis\skopro_project_xilinx\q1_1.bit
+FAMILY=Spartan3
+PART=xc3s400-5pq208
+WORKINGDIR=C:\Users\Saleh\Desktop\Thesis\skopro_project_xilinx
+LICENSE=WebPack
+USER_INFO=211217852_0_0_210

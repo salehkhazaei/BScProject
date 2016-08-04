@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/Saleh/Desktop/Thesis/skopro_project_xilinx/q1_1.xst" -ofn "C:/Users/Saleh/Desktop/Thesis/skopro_project_xilinx/q1_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s400-pq208-5 q1_1.ngc q1_1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s400-pq208-5 q1_1.ngc q1_1.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o q1_1_map.ncd q1_1.ngd q1_1.pcf 
+par -w -intstyle ise -ol high -t 1 q1_1_map.ncd q1_1.ncd q1_1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml q1_1.twx q1_1.ncd -o q1_1.twr q1_1.pcf -ucf ports.ucf 
+xst -intstyle ise -ifn "C:/Users/Saleh/Desktop/Thesis/skopro_project_xilinx/q1_1.xst" -ofn "C:/Users/Saleh/Desktop/Thesis/skopro_project_xilinx/q1_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s400-pq208-5 q1_1.ngc q1_1.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o q1_1_map.ncd q1_1.ngd q1_1.pcf 
+par -w -intstyle ise -ol high -t 1 q1_1_map.ncd q1_1.ncd q1_1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml q1_1.twx q1_1.ncd -o q1_1.twr q1_1.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f q1_1.ut q1_1.ncd 

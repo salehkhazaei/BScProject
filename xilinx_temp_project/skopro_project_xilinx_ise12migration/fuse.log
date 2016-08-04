@@ -1,0 +1,36 @@
+Running: C:\Xilinx\13.3\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o E:/skopro3/skopro_project_xilinx/main_isim_beh.exe -prj E:/skopro3/skopro_project_xilinx/main_beh.prj work.main 
+ISim O.76xd (signature 0x2f00eba5)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/skopro3/skopro_project_xilinx/../../skopro2/register.vhd" into library work
+Parsing VHDL file "E:/skopro3/skopro_project_xilinx/../../skopro2/memory.vhd" into library work
+Parsing VHDL file "E:/skopro3/skopro_project_xilinx/../../skopro2/fulladdr.vhd" into library work
+Parsing VHDL file "E:/skopro3/skopro_project_xilinx/../../skopro2/counter.vhd" into library work
+Parsing VHDL file "E:/skopro3/skopro_project_xilinx/../../skopro2/compare.vhd" into library work
+Parsing VHDL file "E:/skopro3/skopro_project_xilinx/../../skopro2/datapath.vhd" into library work
+Parsing VHDL file "E:/skopro3/skopro_project_xilinx/../../skopro2/controller.vhd" into library work
+Parsing VHDL file "E:/skopro3/skopro_project_xilinx/../../skopro2/main.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 67136 KB
+Fuse CPU Usage: 264 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity memory [\memory(3,0,3,0,3,0)\]
+Compiling architecture behavior of entity n_register [\n_register(4)\]
+Compiling architecture rtl of entity compare [compare_default]
+Compiling architecture rtl of entity fulladdr [fulladdr_default]
+Compiling architecture behavioral of entity counter [\counter(5)\]
+Compiling architecture rtl of entity datapath [datapath_default]
+Compiling architecture rtl of entity controller [controller_default]
+Compiling architecture rtl of entity main
+Time Resolution for simulation is 1ps.
+Waiting for 9 sub-compilation(s) to finish...
+Compiled 20 VHDL Units
+Built simulation executable E:/skopro3/skopro_project_xilinx/main_isim_beh.exe
+Fuse Memory Usage: 86916 KB
+Fuse CPU Usage: 483 ms

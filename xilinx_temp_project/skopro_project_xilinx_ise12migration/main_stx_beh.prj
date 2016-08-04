@@ -1,0 +1,8 @@
+vhdl isim_temp "../../skopro2/register.vhd"
+vhdl isim_temp "../../skopro2/memory.vhd"
+vhdl isim_temp "../../skopro2/fulladdr.vhd"
+vhdl isim_temp "../../skopro2/counter.vhd"
+vhdl isim_temp "../../skopro2/compare.vhd"
+vhdl isim_temp "../../skopro2/datapath.vhd"
+vhdl isim_temp "../../skopro2/controller.vhd"
+vhdl isim_temp "../../skopro2/main.vhd"

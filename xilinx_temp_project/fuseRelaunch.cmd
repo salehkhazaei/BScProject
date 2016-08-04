@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/skopro3/skopro_project_xilinx/main_isim_beh.exe" -prj "E:/skopro3/skopro_project_xilinx/main_beh.prj" "work.main" 
